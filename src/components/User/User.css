@@ -1,0 +1,63 @@
+.User {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+
+    text-align: center;
+    /* display: flex;
+    align-content: center; */
+}
+
+.User-ContainerAvatar {
+    display: inline-block;
+
+    width: 168px;
+    height: 168px;
+
+    text-align: center;
+}
+
+.User-ContainerAvatarPhoto {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+}
+
+.User-EditButton {
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #c571f8;
+
+    position: relative;
+    top: -22px;
+    left: -29px;
+}
+
+.User-Name {
+    margin: 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #505050;
+
+    white-space: normal;
+}
+
+.User-SmallBio {
+    margin: 0;
+
+    display: inline-block;
+
+    width: 204px;
+
+    font-weight: 400;
+    font-size: 10px;
+    color: #9f9f9f;
+
+    white-space: normal;
+}
