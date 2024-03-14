@@ -1,0 +1,36 @@
+.Header {
+    margin: 0 0 32px 0;
+    padding: 43px 0 0 24px;
+
+    height: 88px;
+    box-sizing: border-box;
+
+    box-shadow: 0 14px 19px -11px rgb(80, 80, 80, 0.1);
+
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+.Header-Container {
+    width: 24px;
+
+    display: flex;
+}
+
+.Header-Link {
+    width: 24px;
+    height: 27px;
+}
+
+.Header-LinkBackIcon {
+    justify-content: bottom;
+}
+
+.Header-Title {
+    display: inline-block;
+    
+    margin: 0 0 0 25px;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #505050;
+}

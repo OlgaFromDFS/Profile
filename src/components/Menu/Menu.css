@@ -1,0 +1,26 @@
+.Menu {
+    margin-top: 39px;
+    padding-left: 26px;
+
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    color: #505050;
+
+    list-style: none;
+}
+
+.Menu-Container {
+    display: flex;
+}
+
+.Menu-Item {
+    display: inline-block;
+
+    margin-left: 23px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Menu-ItemIcon {
+    display: inline-block;
+}
