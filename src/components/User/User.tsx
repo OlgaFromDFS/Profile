@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import { cnUser } from './User.classname';
 
 import './User.css';
-import janeDoe from './img/JaneDoe1.jpg';
+import janeDoe from './img/JaneDoe.jpg';
 import editIcon from './img/EditIcon.svg';
 
 const User: FC = () => {
